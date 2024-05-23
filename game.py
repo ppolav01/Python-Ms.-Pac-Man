@@ -357,7 +357,14 @@ class Controller():
 				self.model.movePacman(0, -self.speed)
 				self.view.scroll(-10)
 
-print("\nUse the arrow keys to move. Press Esc to quit.")
+print("\n-----------------------------------------------")
+print("Use the arrow keys to move. Press Esc to quit.")
+print("\nToggle into edit mode by pressing 'e'")
+print("\nAdd pellets by pressing 'p' when in edit mode")
+print("\nAdd ghosts by pressing 'g' when in ghost mode")
+print("\nAdd fruits by pressing 'f' when in fruit mode")
+print("-----------------------------------------------")
+
 pygame.init()
 m = Model()
 v = View(m)
