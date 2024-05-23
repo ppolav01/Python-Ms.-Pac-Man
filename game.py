@@ -358,12 +358,13 @@ class Controller():
 				self.view.scroll(-10)
 
 print("\n-----------------------------------------------")
-print("Use the arrow keys to move. Press Esc to quit.")
-print("\nToggle into edit mode by pressing 'e'")
+print("Use the arrow keys to move. Press 'esc' or 'q' to quit anytime.")
+print("\nToggle into and out of edit mode by pressing 'e'")
 print("\nAdd pellets by pressing 'p' when in edit mode")
 print("\nAdd ghosts by pressing 'g' when in ghost mode")
 print("\nAdd fruits by pressing 'f' when in fruit mode")
-print("-----------------------------------------------")
+print("\nReload the original map by pressing 'l' anytime")
+print("-----------------------------------------------\n")
 
 pygame.init()
 m = Model()
